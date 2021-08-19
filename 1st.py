@@ -3,7 +3,9 @@ import numpy as np
 import streamlit as st
 from PIL import Image
 import time
-
+#https://github.com/matsuzonikof/my1stRepository.git
+#my1sttoken
+#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
 st.title("Streamlit 超入門")
 st.write("DataFrame")
 df = pd.DataFrame({
@@ -23,10 +25,10 @@ st.write("プログレスバーの表示")
 latest_iteration = st.empty()
 bar= st.progress(0)
 for i in range(100):
-    latest_iteration.text(f'Iteration{i+1}')
+    latest_iteration.text(f'Iteration{i+1}%')
     bar.progress(i+1)
-    time.sleep(0.1)
-
+    time.sleep(0.01)
+"Done!"
 
 st.write("インタラクティブ　ウィジェット")
 left_column, right_column = st.columns(2)

@@ -6,7 +6,7 @@ import time
 #https://github.com/matsuzonikof/my1stRepository.git
 #my1sttoken
 #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
-st.title("Streamlit 超入門")
+st.title("Streamlit 超入門8/24")
 st.write("DataFrame")
 df = pd.DataFrame({
     "1列目": [1,2,3,4],
